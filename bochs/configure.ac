@@ -840,7 +840,6 @@ AC_ARG_ENABLE(debugger-gui,
    else
     AC_MSG_RESULT(no)
     AC_DEFINE(BX_DEBUGGER_GUI, 0)
-    gui_debugger=0
    fi],
   [
     if test "$bx_debugger" = 1; then
@@ -849,7 +848,6 @@ AC_ARG_ENABLE(debugger-gui,
     else
       AC_MSG_RESULT(no)
       AC_DEFINE(BX_DEBUGGER_GUI, 0)
-      gui_debugger=0
     fi
     ]
   )
